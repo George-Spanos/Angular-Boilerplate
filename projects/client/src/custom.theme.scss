@@ -1,0 +1,13 @@
+@import "~@angular/material/theming";
+
+@include mat-core();
+
+$custom-app-primary: mat-palette($mat-indigo, 100);
+$custom-app-accent: mat-palette($mat-blue);
+$custom-app-warn: mat-palette($mat-red);
+
+// $button-accent-color: mat-palette($mat-gray, 800);
+// $mat-button-theme: mat-light-theme($madosta-app-primary, $button-accent-color);
+$custom-app-theme: mat-light-theme($custom-app-primary, $custom-app-accent, $custom-app-warn);
+@include angular-material-theme($custom-app-theme);
+// @include mat-checkbox-theme($mat-button-theme);

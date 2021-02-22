@@ -1,0 +1,54 @@
+<mat-toolbar fxLayout="column" fxLayoutAlign="start center" fxLayoutGap="10px" color="primary" fxFlex="grow">
+    <mat-nav-list fxLayout="column" fxLayoutGap="20px">
+        <a mat-list-item fxLayout="row" fxLayoutGap="5px" class="grow onHover" [routerLink]="['/']"
+            routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            <ng-container class="grow">
+                <mat-icon>home</mat-icon>
+                <span>
+                    Home
+                </span>
+            </ng-container>
+
+        </a>
+        <a mat-list-item fxLayout="row" fxLayoutGap="5px" class="grow onHover" [routerLink]="['/']"
+            routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            <ng-container class="grow">
+                <mat-icon>print</mat-icon>
+                <span>
+                    Print
+                </span>
+            </ng-container>
+
+        </a>
+        <a mat-list-item fxLayout="row" fxLayoutGap="5px" class="grow onHover" [routerLink]="['/']"
+            routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            <ng-container class="grow">
+                <mat-icon>loop</mat-icon>
+                <span>
+                    Connect
+                </span>
+            </ng-container>
+
+        </a>
+        <a mat-list-item fxLayout="row" fxLayoutGap="5px" class="grow onHover" [routerLink]="['/']"
+            routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            <ng-container class="grow">
+                <mat-icon>zoom_in</mat-icon>
+                <span>
+                    Search
+                </span>
+            </ng-container>
+
+        </a>
+        <a mat-list-item fxLayout="row" fxLayoutGap="5px" class="grow onHover" [routerLink]="['/']"
+            routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            <ng-container class="grow">
+                <mat-icon>assignment</mat-icon>
+                <span>
+                    Specs
+                </span>
+            </ng-container>
+
+        </a>
+    </mat-nav-list>
+</mat-toolbar>

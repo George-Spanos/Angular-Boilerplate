@@ -20,19 +20,19 @@
         "environments/*"
       ],
       "@boilerplate/model": [
-        "model/src/public-api.ts"
+        "projects/model/src/public-api.ts"
       ],
       "@boilerplate/domain": [
-        "domain/src/public-api.ts"
+        "projects/domain/src/public-api.ts"
       ],
       "@boilerplate/store": [
-        "store/src/public-api.ts"
+        "projects/store/src/public-api.ts"
       ],
       "@boilerplate/shared": [
-        "shared/src/public-api.ts"
+        "projects/shared/src/public-api.ts"
       ],
       "@boilerplate/localstorage": [
-        "localstorage/src/public-api.ts"
+        "projects/localstorage/src/public-api.ts"
       ]
     }
   }

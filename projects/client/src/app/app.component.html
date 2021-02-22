@@ -1,1 +1,10 @@
-
+<mat-sidenav-container *ngIf="true">
+    <mat-sidenav fxLayout="row" fxLayoutAlign="start center" mode="side" opened>
+        <app-menu fxLayout="row" fxLayoutAlign="start stretch"></app-menu>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="grow p-1">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

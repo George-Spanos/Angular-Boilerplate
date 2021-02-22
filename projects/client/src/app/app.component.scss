@@ -1,0 +1,22 @@
+:host {
+    mat-sidenav {
+        margin: 0;
+        position: initial;
+    }
+    app-header {
+        height: 12vh;
+    }
+    mat-sidenav-container {
+        display: flex;
+        min-height: 92vh;
+        flex-grow: 1;
+    }
+    mat-sidenav-content {
+        margin: auto !important;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        height: 100vh;
+        max-width: 100vw;
+    }
+}

@@ -1,0 +1,31 @@
+:host {
+  flex-grow: 1;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  mat-toolbar {
+    height: 100%;
+    padding: 0 7px;
+    // min-width: 150px;
+  }
+  mat-list-item {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 1px;
+  }
+
+  .onHover {
+    &:hover {
+      border-bottom: 1px solid black;
+      padding-bottom: 0;
+    }
+  }
+  .mat-list-item-content {
+    flex-grow: 1;
+  }
+  mat-icon {
+    padding: 0 5px !important;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}

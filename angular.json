@@ -28,7 +28,10 @@
               "projects/client/src/assets"
             ],
             "styles": [
-              "projects/client/src/styles.scss"
+              "projects/client/src/styles.scss",
+              "styles/__spacing.scss",
+              "styles/__typography.scss",
+              "projects/client/src/custom.theme.scss"
             ],
             "scripts": []
           },
