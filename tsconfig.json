@@ -17,7 +17,7 @@
     ],
     "paths": {
       "environments/*": [
-        "../environments/*"
+        "environments/*"
       ],
       "@boilerplate/model": [
         "model/src/public-api.ts"
