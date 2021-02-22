@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
-import { ModelComponent } from './model.component';
 
 
 
 @NgModule({
-  declarations: [ModelComponent],
+  declarations: [],
   imports: [
   ],
-  exports: [ModelComponent]
+  exports: []
 })
 export class ModelModule { }

@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
-import { LocalstorageComponent } from './localstorage.component';
 
 
 
 @NgModule({
-  declarations: [LocalstorageComponent],
+  declarations: [],
   imports: [
   ],
-  exports: [LocalstorageComponent]
+  exports: []
 })
 export class LocalstorageModule { }

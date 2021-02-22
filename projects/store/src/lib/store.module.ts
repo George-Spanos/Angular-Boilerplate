@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
-import { StoreComponent } from './store.component';
 
 
 
 @NgModule({
-  declarations: [StoreComponent],
+  declarations: [],
   imports: [
   ],
-  exports: [StoreComponent]
+  exports: []
 })
 export class StoreModule { }
